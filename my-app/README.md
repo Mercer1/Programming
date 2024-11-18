@@ -19,7 +19,7 @@ Para poder ingresar al login se debe hacer uso de cualquiera de las siguientes c
 -password:83r5^_
 
 
-##Disclaimer
+## Disclaimer
 Debido a limitaciones de procesamiento, el desarrollo fué hecho en web pero es igual de valido para cualquier plataforma (Android o iOs)
 
 ## Datos técnicos
