@@ -1,50 +1,33 @@
-# Welcome to your Expo app 👋
+# Bienvenido a mi proyecto de demostración realizado en React Native 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Este proyecto fué realizado en ReactNative con el fin de demostrar funcionalidad, navegación y autenticación.
 
-## Get started
+## Inicialización de proyecto:
+Para iniciar el proyecto se debe clonar en un repositorio local, para posteriormente ejecutar los siguientes comandos:
 
-1. Install dependencies
+-npm install
+- (el comando anterior debiese instalar expo por defecto, de no haberlo hecho, ejecutar:)
+- npm install expo
+- npm run web
 
-   ```bash
-   npm install
-   ```
+Para poder ingresar al login se debe hacer uso de cualquiera de las siguientes credenciales:
 
-2. Start the app
+-username:johnd
+-password:m38rmF$
 
-   ```bash
-    npx expo start
-   ```
+-username:mor_2314
+-password:83r5^_
 
-In the output, you'll find options to open the app in a
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+##Disclaimer
+Debido a limitaciones de procesamiento, el desarrollo fué hecho en web pero es igual de valido para cualquier plataforma (Android o iOs)
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Datos técnicos
+Para el llamado de Api, se utilizó "Axios" 
 
-## Get a fresh project
+Para la validación de token y login se utilizó AsyncStorage
 
-When you're ready, run:
+Adicionalmente a AsyncStorage se implementó Redux como auxiliar en el manejo de estado, que si bien para una aplicación de un nivel acotado como este
+no es estrictamente necesario.De todas maneras se dejaron los archivos ubicados y su funcionamiento también.
 
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Para la navegación se utilizó react-navigation
