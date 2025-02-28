@@ -1,0 +1,7 @@
+<div *ngIf="favoriteCharacter">
+    <h2>Favorite Character</h2>
+    <p>{{ favoriteCharacter.name }}</p>
+    <img [src]="favoriteCharacter.image" alt="Favorite Character Image" />
+    <button (click)="showFavoriteDetails()">Show Details</button>
+  </div>
+  
